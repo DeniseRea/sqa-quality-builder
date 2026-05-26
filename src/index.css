@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Poppins:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+:root {
+	--font-display: "Cormorant Garamond", serif;
+	--font-body: "Poppins", sans-serif;
+}
+
+body {
+	font-family: var(--font-body);
+	background-color: #f1f5f9;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+	width: 0;
+	height: 0;
+}
+
+.hide-scrollbar {
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
