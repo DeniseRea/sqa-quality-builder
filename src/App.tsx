@@ -47,7 +47,7 @@ const ROADMAP_PHASES = [
         },
         {
           title: 'Recursos de Interés y Enlaces',
-          content: '🌐 ENLACES OFICIALES Y DOCUMENTOS:\n\n| Tipo | Recurso | Enlace |\n|------|---------|--------|\n| Norma oficial | ISO Store (compra) | https://dntms.isolutions.iso.org/standard/62711.html |\n| Próxima versión | ISO/IEC DIS 29110-1-1 (en desarrollo) | https://dntms.isolutions.iso.org/standard/62711.html |\n| Próxima versión | ISO/IEC DIS 29110-1-2 (en desarrollo) | https://dntms.isolutions.iso.org/standard/62711.html |',
+          content: '🌐 ENLACES OFICIALES Y DOCUMENTOS:\n\n| Tipo | Recurso | Enlace |\n|------|---------|--------|\n| Norma oficial | ISO Store (compra) | https://dntms.isolutions.iso.org/standard/62711.html |\n| Próxima versión | ISO/IEC DIS 29110-1-1 (en desarrollo) | Sin enlace directo - consultar ISO Store |\n| Próxima versión | ISO/IEC DIS 29110-1-2 (en desarrollo) | Sin enlace directo - consultar ISO Store |',
         },
         {
           title: 'Resumen de la Serie ISO/IEC 29110',
@@ -102,7 +102,7 @@ const ROADMAP_PHASES = [
         },
         {
           title: 'Recursos de Interés y Enlaces',
-          content: '🌐 ENLACES OFICIALES Y DOCUMENTOS:\n\n| Tipo | Recurso | Enlace |\n|------|---------|--------|\n| Norma oficial | IEC Webstore (compra - CHF 159) | https://webstore.iec.ch/en/publication/23686 |\n| Enmienda 2022 | Amendment 1:2022 | https://webstore.iec.ch/en/publication/23686 |\n\n**Público objetivo**: Productores de estándares, proveedores de herramientas y metodologías',
+          content: '🌐 ENLACES OFICIALES Y DOCUMENTOS:\n\n| Tipo | Recurso | Enlace |\n|------|---------|--------|\n| Norma oficial + Enmienda 2022 | IEC Webstore (compra - CHF 159) | https://webstore.iec.ch/en/publication/23686 |\n\n**Público objetivo**: Productores de estándares, proveedores de herramientas y metodologías',
         },
       ],
       guide: [
@@ -149,7 +149,7 @@ const ROADMAP_PHASES = [
         },
         {
           title: 'Recursos de Interés y Enlaces',
-          content: '🌐 ENLACES OFICIALES Y DOCUMENTOS:\n\n| Tipo | Recurso | Enlace |\n|------|---------|--------|\n| Norma oficial | ANSI Webstore (compra - $81.00 USD) | https://webstore.ansi.org/standards/iso/isoiectr291102015 |\n| Versión reemplazada (2011) | IEC Webstore (histórica) | https://webstore.iec.ch/en/publication/11344 |',
+          content: '🌐 ENLACES OFICIALES Y DOCUMENTOS:\n\n| Tipo | Recurso | Enlace |\n|------|---------|--------|\n| Norma oficial | ANSI Webstore (compra - $81.00 USD) | https://webstore.ansi.org |\n| Versión reemplazada (2011) | IEC Webstore (histórica) | https://webstore.iec.ch/en/publication/11344 |',
         },
       ],
       guide: [
@@ -196,7 +196,7 @@ const ROADMAP_PHASES = [
         },
         {
           title: 'Recursos de Interés y Enlaces',
-          content: '🌐 ENLACES OFICIALES Y DOCUMENTOS:\n\n| Tipo | Recurso | Enlace |\n|------|---------|--------|\n| Norma oficial | ANSI Webstore (compra - $164.00 USD) | https://webstore.ansi.org/standards/iso/ISOIEC291102018 |\n| Versión histórica (2011) | IEC Webstore (reemplazada) | https://webstore.iec.ch/en/publication/11345 |',
+          content: '🌐 ENLACES OFICIALES Y DOCUMENTOS:\n\n| Tipo | Recurso | Enlace |\n|------|---------|--------|\n| Norma oficial | ANSI Webstore (compra - $164.00 USD) | https://webstore.ansi.org |\n| Versión histórica (2011) | IEC Webstore (reemplazada) | https://webstore.iec.ch/en/publication/11345 |',
         },
       ],
       guide: [
@@ -243,7 +243,7 @@ const ROADMAP_PHASES = [
         },
         {
           title: 'Recursos de Interés y Enlaces',
-          content: '🌐 ENLACES OFICIALES Y DEPLOYMENT PACKAGES:\n\n| Tipo | Recurso | Enlace |\n|------|---------|--------|\n| Norma oficial 2025 | VDE Verlag (preview/compra) | https://www.vde-verlag.de/iec-standards/free-document-download/254815/ |\n| Deployment Package | Plantillas de Software Implementation (DOCX) | http://profs.etsmtl.ca/claporte/English/VSE/Deploy-Pack/Entry%20Profile-DP-Software%20Implementation_03.docx |\n| Deployment Package | Plantillas de Project Management (DOCX) | http://profs.etsmtl.ca/claporte/english/VSE/Deploy-Pack/Entry%20Profile-DP-Project%20Management_03.docx |',
+          content: '🌐 ENLACES OFICIALES Y DEPLOYMENT PACKAGES:\n\n| Tipo | Recurso | Enlace |\n|------|---------|--------|\n| Norma oficial 2025 | ISO Store / IEC Webstore (compra) | https://webstore.iec.ch |\n| Deployment Package | Plantillas de Software Implementation (DOCX) | Enlace no disponible - sitio ETSMTL en reestructuración |\n| Deployment Package | Plantillas de Project Management (DOCX) | Enlace no disponible - sitio ETSMTL en reestructuración |',
         },
         {
           title: 'Contenido del Deployment Package (Software Implementation)',
@@ -298,7 +298,7 @@ const ROADMAP_PHASES = [
         },
         {
           title: 'Recursos de Interés y Enlaces',
-          content: '🌐 ENLACES OFICIALES Y DOCUMENTOS:\n\n| Tipo | Recurso | Enlace |\n|------|---------|--------|\n| Norma oficial | NBN/Normadoc (compra) | https://www.normadoc.com/english/nbn-iso-iec-29110-5-1-2-2025.html |\n| Deployment Packages | Colección completa para Basic Profile | http://profs.etsmtl.ca/claporte/Publications/Publications/INCOSE_2011.pdf |',
+          content: '🌐 ENLACES OFICIALES Y DOCUMENTOS:\n\n| Tipo | Recurso | Enlace |\n|------|---------|--------|\n| Norma oficial | ISO Store / IEC Webstore (compra) | https://webstore.iec.ch |\n| Deployment Packages | Colección completa para Basic Profile | Enlace no disponible - sitio ETSMTL en reestructuración |',
         },
         {
           title: 'Deployment Packages Disponibles y Estructura',
@@ -319,10 +319,6 @@ const ROADMAP_PHASES = [
         {
           title: 'Contexto Global: Aplicaciones Masivas',
           content: '🌏 APLICACIONES MASIVAS DOCUMENTADAS (CONTEXTO GLOBAL):\n\nEl artículo del experimento ecuatoriano documenta los siguientes casos internacionales:\n\n| País | Cantidad de empresas | Perfil | Fuente |\n|------|---------------------|--------|--------|\n| Tailandia | +350 empresas | Basic Profile | ScienceDirect 2020 |\n| México | ~40 empresas | Basic Profile | ScienceDirect 2020 |\n| Colombia | 1 empresa | Basic Profile | ScienceDirect 2020 |',
-        },
-        {
-          title: 'Tabla Resumen de Enlaces por Caso de Estudio',
-          content: '📋 TABLA RESUMEN DE ENLACES POR CASO DE ESTUDIO:\n\n| # | Caso de Estudio | Fase | Enlace |\n|---|----------------|------|--------|\n| 1 | Experimento 4 equipos - Ecuador (ScienceDirect) | -5-1-2 | https://www.sciencedirect.com/science/article/abs/pii/S0920548918304203 |\n| 2 | Experimento - OUCI (citas) | -5-1-2 | https://ouci.dntb.gov.ua/en/works/leGMjMk7/ |\n| 3 | Experimento - Researchr | -5-1-2 | https://researchr.org/publication/Castillo-Salinas20/references |\n| 4 | Empresa Automotriz Ecuador (Dialnet) | -5-1-2 | https://dialnet.unirioja.es/servlet/articulo?codigo=8895230 |\n| 5 | Rover Autónomo - Eclipse Wiki | -5-1-2 | https://wiki.eclipse.org/Software_Engineering_the_Autonomous_Rover |\n| 6 | Rover Autónomo - Demostración | -5-1-2 | https://wiki.eclipse.org/ISO/IEC_29110_Lifecycle_Demonstration_Case_Study |\n| 7 | Metodología EPF Composer (IGI Global) | -5-1-1 / -5-1-2 | https://www.igi-global.com/viewtitlesample.aspx?id=169768 |',
         },
       ],
       guide: [
@@ -501,6 +497,7 @@ function FormattedContent({
     // Tables: start of a table is a line starting with '|'
     if (line.startsWith('|')) {
       const tableLines: string[] = [];
+      const tableStartIndex = i;
       while (i < lines.length && lines[i].trim().startsWith('|')) {
         tableLines.push(lines[i].trim());
         i++;
@@ -520,8 +517,10 @@ function FormattedContent({
         const headers = parseRow(headerRowRaw);
         const rows = dataRowsRaw.map((row) => parseRow(row));
 
+        const isUrl = (text: string) => /^https?:\/\//.test(text);
+
         elements.push(
-          <div key={`table-wrapper-${i}`} className="my-4 overflow-x-auto rounded-xl border border-slate-200/80 shadow-sm bg-white">
+          <div key={`table-wrapper-${tableStartIndex}`} className="my-4 overflow-x-auto rounded-xl border border-slate-200/80 shadow-sm bg-white">
             <table className="w-full text-left border-collapse">
               <thead>
                 <tr className={`${theme.soft} border-b ${theme.border}`}>
@@ -537,7 +536,7 @@ function FormattedContent({
                   <tr key={rIdx} className="hover:bg-slate-50/50 transition-colors">
                     {row.map((cell, cIdx) => (
                       <td key={cIdx} className="px-4 py-2.5 text-slate-600 font-medium whitespace-pre-line">
-                        {cell.startsWith('http') ? (
+                        {isUrl(cell) ? (
                           <a
                             href={cell}
                             target="_blank"
@@ -664,7 +663,10 @@ function ResourceViewer({
     if (!printContent) return;
 
     const printWindow = window.open('', '_blank');
-    if (!printWindow) return;
+    if (!printWindow) {
+      alert('Por favor permite las ventanas emergentes para descargar el PDF.');
+      return;
+    }
 
     printWindow.document.write(`
       <html>
@@ -773,7 +775,6 @@ function Footer() {
                 { label: 'ISO Store', href: 'https://dntms.isolutions.iso.org/standard/62711.html' },
                 { label: 'IEC Webstore', href: 'https://webstore.iec.ch/en/publication/23686' },
                 { label: 'ANSI Webstore', href: 'https://webstore.ansi.org' },
-                { label: 'Deployment Packages ETSMTL', href: 'http://profs.etsmtl.ca/claporte/English/VSE/index.html' },
               ].map((link) => (
                 <li key={link.label}>
                   <a
