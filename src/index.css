@@ -20,3 +20,97 @@ body {
 	-ms-overflow-style: none;
 	scrollbar-width: none;
 }
+
+/* Custom scroll for guide panel */
+.custom-scroll::-webkit-scrollbar {
+	width: 4px;
+}
+
+.custom-scroll::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+	background: #cbd5e1;
+	border-radius: 4px;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb:hover {
+	background: #94a3b8;
+}
+
+.custom-scroll {
+	scrollbar-width: thin;
+	scrollbar-color: #cbd5e1 transparent;
+}
+
+/* Animate guide sections */
+@keyframes fadeSlideIn {
+	from {
+		opacity: 0;
+		transform: translateY(-4px);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.animate-in {
+	animation: fadeSlideIn 0.25s ease-out;
+}
+
+@keyframes float {
+
+	0%,
+	100% {
+		transform: translateY(0);
+	}
+
+	50% {
+		transform: translateY(-6px);
+	}
+}
+
+.animate-float {
+	animation: float 2.5s ease-in-out infinite;
+}
+
+/* ── Premium Modal Animations ── */
+@keyframes backdropFade {
+	from {
+		opacity: 0;
+		backdrop-filter: blur(0px);
+	}
+	to {
+		opacity: 1;
+		backdrop-filter: blur(6px);
+	}
+}
+
+@keyframes modalScaleIn {
+	from {
+		opacity: 0;
+		transform: scale(0.93) translateY(20px);
+	}
+	to {
+		opacity: 1;
+		transform: scale(1) translateY(0);
+	}
+}
+
+.animate-backdrop {
+	animation: backdropFade 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-modal {
+	animation: modalScaleIn 0.42s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+/* Glassmorphism Panel */
+.glass-panel {
+	background: rgba(255, 255, 255, 0.85);
+	backdrop-filter: blur(12px);
+	-webkit-backdrop-filter: blur(12px);
+}
