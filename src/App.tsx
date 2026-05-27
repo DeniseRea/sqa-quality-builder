@@ -203,10 +203,10 @@ export default function App() {
           </p>
         </header>
 
-        <section className="relative mt-10 h-[320px]">
-          <div className="absolute inset-0 rounded-[32px] bg-gradient-to-b from-white/80 via-white/50 to-white/0" />
+        <section className="relative mt-10 h-80">
+          <div className="absolute inset-0 rounded-3xl bg-gradient-to-b from-white/80 via-white/50 to-white/0" />
           <div className="absolute inset-x-0 top-1/2 -translate-y-1/2">
-            <svg className="h-[230px] w-full drop-shadow-[0_18px_24px_rgba(15,23,42,0.2)]" viewBox="0 0 1000 200" preserveAspectRatio="none">
+            <svg className="h-56 w-full drop-shadow-2xl" viewBox="0 0 1000 200" preserveAspectRatio="none">
               <path
                 d="M 0 120 C 90 40 170 200 260 120 C 350 40 430 200 520 120 C 610 40 690 200 780 120 C 870 40 950 200 1000 140"
                 fill="none"
@@ -261,13 +261,10 @@ export default function App() {
                 aria-pressed={isActive}
               >
                 <div
-                  className={`relative h-24 w-20 transition-transform duration-300 ${isActive ? 'scale-110 animate-float' : 'scale-100'}`}
-                  style={{
-                    filter: 'drop-shadow(0 18px 24px rgba(15, 23, 42, 0.25))',
-                  }}
+                  className={`relative h-24 w-20 drop-shadow-2xl transition-transform duration-300 ${isActive ? 'scale-110 animate-float' : 'scale-100'}`}
                 >
                   <div
-                    className="absolute left-1/2 top-2 h-12 w-12 -translate-x-1/2 rounded-full blur-xl opacity-60"
+                    className="absolute left-1/2 top-3 h-12 w-12 -translate-x-1/2 rounded-full blur-xl opacity-60"
                     style={{
                       background: `linear-gradient(135deg, ${theme.pinFrom}, ${theme.pinTo})`,
                     }}
@@ -285,15 +282,17 @@ export default function App() {
                       stroke="#ffffff"
                       strokeWidth="4"
                     />
-                    <circle cx="30" cy="24" r="14" fill="rgba(255,255,255,0.95)" />
+                    <circle cx="30" cy="24" r="15" fill="#ffffff" />
+                    <circle cx="30" cy="24" r="12" fill="none" stroke={theme.pinTo} strokeWidth="2.2" opacity="0.7" />
+                    <circle cx="24" cy="14" r="5.5" fill="rgba(255,255,255,0.25)" />
                   </svg>
-                  <div className="absolute left-1/2 top-[16px] -translate-x-1/2">
-                    <Icon className="h-7 w-7 text-slate-900" />
+                  <div className="absolute left-1/2 top-8 -translate-x-1/2 -translate-y-1/2">
+                    <Icon className="h-5 w-5" style={{ color: theme.pinTo }} />
                   </div>
                 </div>
-                <div className="mt-3 w-44 rounded-md border border-slate-200 bg-white/95 px-3 py-2 text-[11px] font-semibold text-slate-700 shadow leading-snug text-center">
+                <div className="mt-3 w-44 rounded-md border border-slate-200 bg-white/95 px-3 py-2 text-xs font-semibold text-slate-700 shadow leading-snug text-center">
                   <div>{phase.title}</div>
-                  <div className="text-[10px] font-medium text-slate-500">{phase.code}</div>
+                  <div className="text-xs font-medium text-slate-500">{phase.code}</div>
                 </div>
               </button>
             );
@@ -302,7 +301,7 @@ export default function App() {
 
         <section className="mt-8">
           <div className="grid gap-5 lg:grid-cols-3">
-            <article className="rounded-[18px] border border-slate-200 bg-white px-5 pb-5 pt-7 shadow-[0_18px_28px_-24px_rgba(15,23,42,0.5)]">
+            <article className="rounded-2xl border border-slate-200 bg-white px-5 pb-5 pt-7 shadow-lg">
               <div className="-mt-14 flex justify-center">
                 <div className={`flex h-12 w-12 items-center justify-center rounded-full text-base font-semibold text-white shadow ${THEME[activePhase.color].solid}`}>
                   {activePhase.order}
@@ -318,7 +317,7 @@ export default function App() {
               </div>
             </article>
 
-            <article className="rounded-[18px] border border-slate-200 bg-white px-5 pb-5 pt-7 shadow-[0_18px_28px_-24px_rgba(15,23,42,0.5)]">
+            <article className="rounded-2xl border border-slate-200 bg-white px-5 pb-5 pt-7 shadow-lg">
               <div className="-mt-14 flex justify-center">
                 <div className={`flex h-12 w-12 items-center justify-center rounded-full text-base font-semibold text-white shadow ${THEME[activePhase.color].solid}`}>
                   {activePhase.order}
@@ -335,7 +334,7 @@ export default function App() {
               </div>
             </article>
 
-            <article className="rounded-[18px] border border-slate-200 bg-white px-5 pb-5 pt-7 shadow-[0_18px_28px_-24px_rgba(15,23,42,0.5)]">
+            <article className="rounded-2xl border border-slate-200 bg-white px-5 pb-5 pt-7 shadow-lg">
               <div className="-mt-14 flex justify-center">
                 <div className={`flex h-12 w-12 items-center justify-center rounded-full text-base font-semibold text-white shadow ${THEME[activePhase.color].solid}`}>
                   {activePhase.order}
