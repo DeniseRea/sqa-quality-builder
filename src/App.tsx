@@ -7,9 +7,10 @@ import {
   Settings,
   ShieldCheck,
   CheckSquare,
-  Link as LinkIcon,
+  ExternalLink,
   Download,
   FileText,
+  Play,
 } from 'lucide-react';
 
 const ROADMAP_PHASES = [
@@ -27,8 +28,10 @@ const ROADMAP_PHASES = [
       summary: 'Establecer un vocabulario comun para reducir ambiguedad y acelerar decisiones.',
       tasks: ['Definir VSE y roles clave', 'Unificar terminos PM/SI', 'Crear glosario vivo'],
       resources: [
-        { label: 'Glosario ISO 29110', type: 'download' },
-        { label: 'Mapa conceptual', type: 'link' },
+        { label: 'ISO 29110-1 — Catalogo oficial ISO', type: 'link', url: 'https://www.iso.org/standard/85337.html' },
+        { label: 'Articulo: Que es ISO 29110 (Encyclopedia)', type: 'link', url: 'https://encyclopedia.pub/entry/27533' },
+        { label: 'Wikipedia — ISO/IEC 29110', type: 'link', url: 'https://en.wikipedia.org/wiki/ISO/IEC_29110' },
+        { label: 'Estandares gratuitos ISO/ITTF', type: 'download', url: 'https://standards.iso.org/ittf/PubliclyAvailableStandards/' },
       ],
     },
   },
@@ -46,8 +49,10 @@ const ROADMAP_PHASES = [
       summary: 'Determinar el perfil que mejor se ajusta a tu realidad operativa.',
       tasks: ['Evaluar tamaño del equipo', 'Definir alcance del proyecto', 'Elegir perfil inicial o basico'],
       resources: [
-        { label: 'Test: Que perfil soy', type: 'link' },
-        { label: 'Diagrama de flujo general', type: 'download' },
+        { label: 'ISO 29110-2 — Catalogo oficial ISO', type: 'link', url: 'https://www.iso.org/standard/84518.html' },
+        { label: 'Vista previa ISO 29110-2 (ITEH)', type: 'link', url: 'https://standards.iteh.ai/catalog/standards/iso/3b256345-ab47-44f5-857e-d8601900dfc5/iso-iec-29110-2-1-2023' },
+        { label: 'Perfiles VSE — Sitio upto25.net', type: 'link', url: 'https://www.upto25.net/' },
+        { label: 'Deployment Packages — Recursos ETS', type: 'link', url: 'https://profs.etsmtl.ca/claporte/English/VSE/index.html' },
       ],
     },
   },
@@ -65,8 +70,10 @@ const ROADMAP_PHASES = [
       summary: 'Validar el nivel de cumplimiento antes de una evaluacion formal.',
       tasks: ['Aplicar checklist de cumplimiento', 'Identificar brechas criticas', 'Priorizar acciones correctivas'],
       resources: [
-        { label: 'Checklist de autoevaluacion', type: 'download' },
-        { label: 'Guia para auditores VSE', type: 'link' },
+        { label: 'ISO 29110-3 — Catalogo oficial ISO', type: 'link', url: 'https://www.iso.org/standard/76503.html' },
+        { label: 'Guia de evaluacion (ITEH preview)', type: 'link', url: 'https://standards.iteh.ai/catalog/standards/iso/3ae8eaff-be96-44c6-ae02-0e22ae498b1a/iso-iec-tr-29110-3-1-2020' },
+        { label: 'Investigacion: Assessment en VSEs (Lero)', type: 'link', url: 'https://lero.ie/' },
+        { label: 'Estandares gratuitos ISO/ITTF', type: 'download', url: 'https://standards.iso.org/ittf/PubliclyAvailableStandards/' },
       ],
     },
   },
@@ -84,8 +91,10 @@ const ROADMAP_PHASES = [
       summary: 'Definir lo que debe existir para cumplir el perfil basico.',
       tasks: ['Verificar requisitos PM', 'Verificar requisitos SI', 'Asegurar trazabilidad'],
       resources: [
-        { label: 'Listado de requisitos', type: 'download' },
-        { label: 'Matriz de trazabilidad', type: 'download' },
+        { label: 'ISO 29110-4-1 — Catalogo oficial ISO', type: 'link', url: 'https://www.iso.org/standard/74033.html' },
+        { label: 'Vista previa 29110-4-1 (ITEH)', type: 'link', url: 'https://standards.iteh.ai/catalog/standards/iso/e5ee1858-b4e5-4e78-a555-1a42787e7021/iso-iec-29110-4-1-2018' },
+        { label: 'Grupo de trabajo INCOSE VSE', type: 'link', url: 'https://connect.incose.org/' },
+        { label: 'Deployment Packages — Recursos ETS', type: 'link', url: 'https://profs.etsmtl.ca/claporte/English/VSE/index.html' },
       ],
     },
   },
@@ -103,8 +112,10 @@ const ROADMAP_PHASES = [
       summary: 'Activar el perfil inicial con guias y plantillas simples.',
       tasks: ['Definir SOW', 'Implementar versionado simple', 'Organizar backlog minimo'],
       resources: [
-        { label: 'Kit de plantillas inicial', type: 'download' },
-        { label: 'Video de arranque', type: 'link' },
+        { label: 'ISO 29110-5-1-1 — Catalogo oficial ISO', type: 'link', url: 'https://www.iso.org/standard/83679.html' },
+        { label: 'Estandares gratuitos ISO/ITTF (TR disponibles)', type: 'download', url: 'https://standards.iso.org/ittf/PubliclyAvailableStandards/' },
+        { label: 'Implementacion EPF — Formalmind', type: 'link', url: 'https://formalmind.com/en/blog/iso29110/' },
+        { label: 'Buscar videos: ISO 29110 Entry Profile', type: 'video', url: 'https://www.youtube.com/results?search_query=ISO+29110+entry+profile+VSE' },
       ],
     },
   },
@@ -122,8 +133,11 @@ const ROADMAP_PHASES = [
       summary: 'Estabilizar el proceso con practicas y documentos formales.',
       tasks: ['Plan de proyecto completo', 'Documento de requisitos', 'Plan de pruebas'],
       resources: [
-        { label: 'Kit perfil basico', type: 'download' },
-        { label: 'Guia de arquitectura', type: 'link' },
+        { label: 'ISO 29110-5-1-2 — Catalogo oficial ISO', type: 'link', url: 'https://www.iso.org/standard/83680.html' },
+        { label: 'Estandares gratuitos ISO/ITTF (TR disponibles)', type: 'download', url: 'https://standards.iso.org/ittf/PubliclyAvailableStandards/' },
+        { label: 'Deployment Packages — Plantillas y checklists', type: 'download', url: 'https://profs.etsmtl.ca/claporte/English/VSE/index.html' },
+        { label: 'Buscar videos: ISO 29110 Basic Profile', type: 'video', url: 'https://www.youtube.com/results?search_query=ISO+29110+basic+profile+implementation' },
+        { label: 'Guia EPF Composer (Formalmind)', type: 'link', url: 'https://formalmind.com/en/blog/iso29110/' },
       ],
     },
   },
@@ -345,14 +359,16 @@ export default function App() {
               <div className="mt-4 border-t border-slate-200 pt-3 text-left">
                 <div className="space-y-2">
                   {activePhase.comms.resources.map((resource) => (
-                    <button
+                    <a
                       key={resource.label}
-                      type="button"
-                      className={`flex w-full items-center justify-between rounded-xl border px-3 py-2 text-left text-xs font-semibold shadow-sm ${THEME[activePhase.color].soft} ${THEME[activePhase.color].text} ${THEME[activePhase.color].border}`}
+                      href={resource.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={`flex w-full items-center justify-between rounded-xl border px-3 py-2 text-left text-xs font-semibold shadow-sm transition-all duration-200 hover:scale-[1.02] hover:shadow-md ${THEME[activePhase.color].soft} ${THEME[activePhase.color].text} ${THEME[activePhase.color].border}`}
                     >
-                      <span>{resource.label}</span>
-                      {resource.type === 'download' ? <Download className="h-3.5 w-3.5" /> : <LinkIcon className="h-3.5 w-3.5" />}
-                    </button>
+                      <span className="mr-2 leading-snug">{resource.label}</span>
+                      {resource.type === 'download' ? <Download className="h-3.5 w-3.5 flex-shrink-0" /> : resource.type === 'video' ? <Play className="h-3.5 w-3.5 flex-shrink-0" /> : <ExternalLink className="h-3.5 w-3.5 flex-shrink-0" />}
+                    </a>
                   ))}
                 </div>
               </div>
